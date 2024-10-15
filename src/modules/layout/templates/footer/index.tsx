@@ -107,14 +107,14 @@ export default async function Footer() {
               <span className="txt-small-plus txt-ui-fg-base">Medusa</span>
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
                 <li>
-                  <a
+                  {/* <a
                     href="https://github.com/medusajs"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
                   >
                     GitHub
-                  </a>
+                  </a> */}
                 </li>
                 <li>
                   <a
