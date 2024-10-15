@@ -69,7 +69,6 @@ export default async function Home({
 
   return (
     <>
-    <div>============</div>
      <Script id="rocket-chat" strategy="afterInteractive">
           {`
               // paste the javascript code here
