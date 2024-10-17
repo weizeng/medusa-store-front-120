@@ -81,6 +81,19 @@ export default async function Home({
               })(window, document, 'script', 'https://rocketchat.dfdf.in/livechat');
           `}
       </Script>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-RK953SL91X"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-RK953SL91X');
+        `}
+      </Script>
       <Hero />
       <div className="py-12">
         <ul className="flex flex-col gap-x-6">
